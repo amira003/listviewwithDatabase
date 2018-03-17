@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f78f"
+    android:orientation="vertical"
+    tools:context="com.example.fondn.databasewithlistview.MainActivity">
+
+    <EditText
+        android:id="@+id/idedittextID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="id"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/nameeditTextID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="name" />
+
+    <Button
+        android:id="@+id/saveID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+    <Button
+        android:id="@+id/showID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show" />
+    <Button
+        android:id="@+id/updateID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="update" />
+    <Button
+        android:id="@+id/deleteID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="delete" />
+
+
+</LinearLayout>
